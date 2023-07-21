@@ -11,12 +11,3 @@ h2{
     -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
 }
-
-.test{
-    background-color: #c38108;
-  
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2
-}

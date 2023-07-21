@@ -54,7 +54,7 @@ for(var i=0;i<arr.length;i++){
     
     </tr>
     `
-    console.log(cartoona)``
+    console.log(cartoona)
 document.getElementById("tbody").innerHTML=cartoona;
 }
 }
@@ -80,8 +80,4 @@ function validation()
     }else{
         return false;
     }
-}
-function passvalidation()
-{
-    
 }
