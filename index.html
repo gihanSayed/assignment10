@@ -1,0 +1,43 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+      <div class=" bColor">
+<h1 class="fw-bolder text-center position-relative test m-auto py-5">Bookmarker</h1>
+<h2 class="text-center fw-bold py-5 text-warning ">
+  <i class="fa-solid fa-bookmark"></i>Bookmark your favorite sites
+  <i class="fa-solid fa-bookmark"></i></h2>
+
+        <div class="w-75 m-auto">
+          <label for="Site Name">
+            <i class="fa-solid fa-book-bookmark"></i> Site Name</label>
+          <input type="text"  id="Site Name" class="my-4 form-control ">
+  
+          <label for="Site URL ">
+            <i class="fa-solid fa-book-bookmark"></i> Site URL</label>
+          <input type="text"  id="Site URL" class="my-4 form-control">
+  
+          <!-- <button class="btn btn-danger my-5" onclick="addbookmark()">Submit</button> -->
+          <button class="btn btn-danger  px-5 my-5" onclick="addbookmark()">Submit</button>
+          
+        </div>
+        <table class="table mx-auto w-75">
+          <thead class="text-center">
+              <th>Index</th>
+              <th>Website Name</th>
+              <th>Visit</th>
+              <th>Delete</th>
+          </thead>
+         <tbody id="tbody" class="text-center">
+  
+         </tbody>
+        </table>
+      </div>
+      
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

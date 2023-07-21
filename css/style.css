@@ -1,0 +1,22 @@
+
+
+.bColor{
+    background-color: #F7ECDE;
+    
+}
+
+h2{
+    background: linear-gradient(to right, #c38108,
+    #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+
+.test{
+    background-color: #c38108;
+  
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2
+}
